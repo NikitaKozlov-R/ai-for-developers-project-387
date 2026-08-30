@@ -1,0 +1,10 @@
+{
+  "servers": {
+    "shadcn": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["shadcn@latest", "mcp"],
+      "cwd": "${workspaceFolder}/frontend"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "simple-cal-com-specs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TypeSpec-контракт API приложения simple-cal-com",
+  "type": "module",
+  "scripts": {
+    "build": "tsp compile .",
+    "watch": "tsp compile . --watch",
+    "format": "tsp format \"**/*.tsp\""
+  },
+  "devDependencies": {
+    "@typespec/compiler": "^1.15.0",
+    "@typespec/http": "^1.15.0",
+    "@typespec/openapi": "^1.15.0",
+    "@typespec/openapi3": "^1.15.0"
+  }
+}

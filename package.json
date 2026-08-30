@@ -1,0 +1,14 @@
+{
+  "name": "simple-cal-com-root",
+  "version": "1.1.1",
+  "private": true,
+  "description": "Root package for managing git hooks and linting configuration",
+  "devDependencies": {
+    "@commitlint/cli": "^19.0.0",
+    "@commitlint/config-conventional": "^19.0.0",
+    "husky": "^9.0.0"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
+}

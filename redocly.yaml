@@ -1,0 +1,13 @@
+extends:
+  - recommended
+
+rules:
+  # В приложении нет регистрации и авторизации: роли различаются только префиксом пути.
+  security-defined: off
+  info-license: off
+  # Пока есть только локальный dev-сервер, реального хоста нет.
+  no-server-example.com: off
+
+apis:
+  simple-cal-com:
+    root: openapi/openapi.yaml
